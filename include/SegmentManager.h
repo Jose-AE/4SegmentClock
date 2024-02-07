@@ -1,6 +1,7 @@
 
-
-///                  when low 0 wil be displayed, when high 1 will be displayed
+// PIN_SEGMENT_X_NUM_A_B
+///                  when low, number A wil be displayed, when high, number B
+///                  will be displayed in 7 segment display number x
 #define PIN_SEGMENT_1_NUM_0_1 1
 #define PIN_SEGMENT_1_NUM_2_3 1
 
@@ -20,7 +21,7 @@
 #define PIN_SEGMENT_4_NUM_6_7 1
 #define PIN_SEGMENT_4_NUM_8_9 1
 
-void SetupPins() {
+void SetupSegmentDisplayPins() {
    // Segment 1 pins
    pinMode(PIN_SEGMENT_1_NUM_0_1, OUTPUT);
    pinMode(PIN_SEGMENT_1_NUM_2_3, OUTPUT);
