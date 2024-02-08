@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#include "SegmentManager.h"
 
 #define BUTTON_B_PIN 7  // D0
 #define BUTTON_D_PIN 6  // D1
